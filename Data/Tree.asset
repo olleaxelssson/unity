@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac8486772517d648b8efe2ce3aa3036, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceData
+  resourceName: Wood
+  resourceType: 0
+  resourceSprite: {fileID: 6891737052078643159, guid: 51514c1f0188c1c42aff31697937c48c, type: 3}
+  gatherCooldown: 2
+  gatherRange: 2
+  lootTable:
+  - lootType: 0
+    minAmount: 1
+    maxAmount: 3
+  xpPerHit: 2
